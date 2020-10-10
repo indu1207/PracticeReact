@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import LifeCycle from './LifeCycle';
+import MyComponent from './MyComponent';
+import AlertEx from './Alert';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LifeCycle/>
+    <MyComponent/>
+    <AlertEx/>
   </React.StrictMode>,
   document.getElementById('root')
 );
